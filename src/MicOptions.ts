@@ -40,6 +40,10 @@ export interface MicOptions {
    */
   fileType?: string;
   /**
+   * Custom path where the sox/arecord/rec should be executed
+   */
+  commandPath?: string;
+  /**
    * Print debug info
    * @defaultValue `false`
    */
